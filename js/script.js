@@ -21,4 +21,5 @@ function Toggler() {
         navList.classList.remove('show');
         menuDisplay = false;
     }
+
 }
