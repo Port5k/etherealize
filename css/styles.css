@@ -32,6 +32,9 @@ li:hover {
 .header {
     background-color: #133c55;
     height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header .nav {
@@ -145,6 +148,9 @@ li:hover {
     display: flex;
     align-content: center;
     justify-content: center;
+    width: 100vw;
+    height: 70%;
+    text-align: center;
 }
 
 .header .showcase .showcase-text {
@@ -156,13 +162,17 @@ li:hover {
 }
 
 .header .showcase .showcase-text .showcase-text-logo {
+    background-color: #133c55;
     line-height: 1;
     font-size: 3.9rem;
     font-family: 'Yellowtail', cursive;
+    text-align: center;
 }
 
 .header .showcase .showcase-text .showcase-info {
-    max-width: 70%;
+    background-color: #133c55;
+    margin-top: 10%;
+    max-width: 613px;
     font-size: 0.9rem;
 }
 
@@ -677,14 +687,19 @@ textarea {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 5px;
-    padding: 0.25rem 1rem;
+    padding: 0.50rem 0.75rem;
+    text-align: center;
     color: antiquewhite;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 18%;
+    background-color: #133c55;
 }
 
 .btn:hover {
-    transform: scale(1.1, 1.1);
+    transform: rotateZ(-3deg) rotateX(360deg) rotateY(-6deg) scale(1.1, 1.1);
     /* Standard syntax */
-    -ms-transform: scale(1.1, 1.1);
+    -ms-transform: rotateZ(-3deg) rotateX(360deg) rotateY(-6deg) scale(1.1, 1.1);
     /* IE 9 */
     transition: transform 500ms;
 }
@@ -698,6 +713,24 @@ i {
 
 
 /** MEDIA QUERIES **/
+
+/** LARGE SCREENS **/
+
+@media screen and (min-width: 1024px) {
+    .header .showcase .showcase-text .showcase-text-logo {
+        line-height: 1;
+        font-size: 4.2rem;
+        font-family: 'Yellowtail', cursive;
+        text-align: center;
+    }
+
+    .header .showcase .showcase-text .showcase-info {
+        margin-top: 10%;
+        max-width: 613px;
+        font-size: 1.25rem;
+    }
+
+}
 
 /** TABLETS **/
 
