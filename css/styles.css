@@ -154,7 +154,7 @@ li:hover {
 }
 
 .header .showcase .showcase-text {
-    color: antiquewhite;
+    color: #fffffc;
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
@@ -282,7 +282,7 @@ li:hover {
 }
 
 .testimonials .section-title {
-    color: antiquewhite;
+    color: #fffffc;
     border-bottom: antiquewhite solid 7.5px;
 }
 
@@ -348,7 +348,7 @@ li:hover {
 
 .testimonials .testimonials-container .witness-card .witness-text {
     width: 70%;
-    color: antiquewhite;
+    color: #fffffc;
     padding: 0.5rem;
 }
 
@@ -363,14 +363,14 @@ li:hover {
 .testimonials .testimonials-container .witness-card .witness-details .name {
     width: 70%;
     font-weight: 600;
-    color: antiquewhite;
+    color: #fffffc;
     padding: 0.5rem;
 }
 
 .testimonials .testimonials-container .witness-card .witness-details .company-info {
     width: 70%;
     font-style: italic;
-    color: antiquewhite;
+    color: #fffffc;
 }
 
 .about {
@@ -560,8 +560,8 @@ li:hover {
 }
 
 .contact .section-title {
-    color: antiquewhite;
-    border-bottom: antiquewhite solid 7.5px;
+    color: #fffffc;
+    border-bottom: #fffffc solid 7.5px;
 }
 
 .contact .contact-container {
@@ -580,7 +580,7 @@ li:hover {
     font-size: 1.5rem;
     width: 100%;
     text-align: center;
-    color: antiquewhite;
+    color: #fffffc;
 }
 
 .contact .contact-container .contact-info-card .info {
@@ -590,7 +590,7 @@ li:hover {
     align-items: center;
     justify-content: center;
     margin: 1.2rem;
-    color: antiquewhite;
+    color: #fffffc;
 }
 
 .contact .contact-container .contact-info-card .info .info-text {
@@ -605,7 +605,7 @@ li:hover {
 
 .contact .contact-container .contact-info-card .social a {
     padding: 1rem;
-    color: antiquewhite;
+    color: #fffffc;
 }
 
 .contact .contact-container .contact-info-card .social a:hover {
@@ -618,7 +618,7 @@ li:hover {
 
 .contact .contact-container .contact-form-card {
     padding: 0.50rem;
-    border: antiquewhite 2px solid;
+    border: #fffffc 2px solid;
     background-color: #133c55;
 }
 
@@ -627,7 +627,7 @@ li:hover {
     font-size: 1.5rem;
     width: 100%;
     text-align: center;
-    color: antiquewhite;
+    color: #fffffc;
 }
 
 .contact .contact-container .contact-form-card .form-container .form .form-item {
@@ -639,16 +639,16 @@ li:hover {
 }
 
 .contact .contact-container .contact-form-card .form-container .form .form-item {
-    color: antiquewhite;
+    color: #fffffc;
 }
 
 .contact .contact-container .contact-form-card .form-container .form .form-item input,
 textarea {
     background-color: transparent;
     outline: none;
-    border: antiquewhite 1px solid;
+    border: #fffffc 1px solid;
     padding: 0.5rem 1.5rem;
-    color: antiquewhite;
+    color: #fffffc;
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
 }
@@ -690,19 +690,13 @@ textarea {
 /*Buttons*/
 
 .btn {
-    font-weight: 700;
-    border: antiquewhite solid 1px;
+    border: #fffffc solid 1px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 5px;
-    padding: 0.50rem 0.75rem;
-    text-align: center;
-    color: antiquewhite;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 18%;
-    background-color: #133c55;
+    padding: 0.25rem 1rem;
+    color: #fffffc;
 }
 
 .btn:hover {
@@ -716,7 +710,7 @@ textarea {
 /*Icons*/
 
 i {
-    color: antiquewhite;
+    color: #fffffc;
     padding: 1rem;
 }
 
